@@ -1,0 +1,431 @@
+{
+	"id": "Get the Guide",
+	"name": "Get the Guide", 
+	"mobile": true, 
+	"notes": "version 1.101", 
+	"syntax": 4, 
+	"version": 1.101,
+	"style": {
+		"html": "",
+		"replacements": [
+
+        {
+              "type": "color",
+              "name": "Header Background Overlay Color",
+              "find": "#00000A"
+          },
+
+        {
+              "type": "color",
+              "name": "Header Bullet Square Color",
+              "find": "#666666"
+          },
+         
+          {
+              "type": "color",
+              "name": "Section1 Color",
+              "find": "#000001"
+          },
+			{
+              "type": "color",
+              "name": "Section 3 Background Color",
+              "find": "#A9ABAD"
+          },
+           {
+              "type": "color",
+              "name": "Section 3 Bullet Square Color",
+              "find": "#E00A15"
+          },
+          {
+              "type": "color",
+              "name": "Section 3 Bullet Number Color",
+              "find": "#fffffd"
+          },
+          {
+              "type": "color",
+              "name": "Section 3 Bullet Line Color",
+              "find": "#000002"
+          },
+           {
+              "type": "color",
+              "name": "Buttons Color",
+              "find": "#E00A14"
+          },
+          {
+              "type": "color",
+              "name": "Buttons Hover Color",
+              "find": "#E00A13"
+          },
+          {
+              "type": "color",
+              "name": "Section 7 Link 1 Color",
+              "find": "#656564"
+          },
+          {
+              "type": "color",
+              "name": "Footer Links Color",
+              "find": "#999999"
+          }
+
+
+
+
+
+		]
+	},
+
+	"form": {
+        "title": {
+            "css": {
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "18pt;",
+                "letter-spacing": "0em;"
+            },
+            "html": "<strong>Enter your email address below to reserve _______... it's 100% FREE!</strong>"
+        },
+        "submit": {
+            "css": {
+                "background-color": "#ffcb01;",
+                "border-color": "#ffb403;",
+                "border-width": "0pt;",
+                "border-style": "solid;",
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "14pt;",
+                "letter-spacing": "-0.1em;"
+            },
+            "html": "Free Instant Access &raquo;"
+        },
+        "privacy": {
+            "css": {
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "12pt;",
+                "letter-spacing": "-0.1em;"
+            },
+            "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
+        }
+    },
+	"elements": [
+		
+        {
+      "id": "site-header",
+      "name": "Header Container",
+      "type": "container"
+        },
+         {
+      "id": "hero-left",
+      "name": "hero-left Container",
+      "type": "container"
+        },
+        {
+      "id": "section3-left",
+      "name": "Section3 left Container",
+      "type": "container"
+        },
+         {
+      "id": "section5-left",
+      "name": "Section5 Headline Container",
+      "type": "container"
+        },
+         {
+      "id": "hero-right",
+      "name": "hero-right Container",
+      "type": "container"
+        },
+        {
+      "id": "section3-right",
+      "name": "section3 right Container",
+      "type": "container"
+        },
+         {
+      "id": "section5-right",
+      "name": "section5 Button Container",
+      "type": "container"
+        },
+          {
+      "id": "Section1",
+      "name": "Section 1 Container",
+      "type": "container"
+        },
+          {
+      "id": "Section2",
+      "name": "Section 2 Container",
+      "type": "container"
+        },
+          {
+      "id": "Section3",
+      "name": "Section 3 Container",
+      "type": "container"
+        },
+          
+          {
+      "id": "Section5",
+      "name": "Section 5 Container",
+      "type": "container"
+        },
+          {
+      "id": "Section6",
+      "name": "Section 6 Container",
+      "type": "container"
+        },
+          {
+      "id": "Section7",
+      "name": "Section 7 Container",
+      "type": "container"
+        },
+          {
+      "id": "site-footer",
+      "name": "Footer Container",
+      "type": "container"
+        },
+        {
+      "id": "flag1",
+      "name": "Section1 Flag",
+      "type": "container"
+        },
+         {
+      "id": "flag2",
+      "name": "Section3 Flag",
+      "type": "container"
+        },
+        {
+      "id": "logos",
+      "name": "Section 2 Logos",
+      "type": "container"
+        },
+        {
+      "id": "section6Testi1",
+      "name": "Section 6 Testimonial 1",
+      "type": "container"
+        },
+{
+      "id": "section6Test2",
+      "name": "Section 6 Testimonial 2",
+      "type": "container"
+        },
+{
+      "id": "section6Testi3",
+      "name": "Section 6 Testimonial 3",
+      "type": "container"
+        },
+      
+
+
+
+
+        {
+      "id": "heroTitle",
+      "name": "Hero Title",
+      "type": "text"
+        },
+         {
+      "id": "heroSub",
+      "name": "Hero Subtitle",
+      "type": "text"
+        },
+
+          {
+      "id": "head-list-title",
+      "name": "Hero List Title",
+      "type": "text"
+        },
+          {
+      "id": "head-list",
+      "name": "Hero List",
+      "type": "text"
+        },
+         {
+      "id": "hero-optin-text",
+      "name": "Hero Optin Text",
+      "type": "text"
+        },
+        {
+      "id": "section1RightHeadline",
+      "name": "Section 1 Right Headline",
+      "type": "text"
+        },
+        {
+      "id": "section1-testimonial-text",
+      "name": "Section 1 Right Testimonial",
+      "type": "text"
+        },
+        {
+      "id": "section2Headline",
+      "name": "Section 2 Headline",
+      "type": "text"
+        },
+          {
+      "id": "section3RightList",
+      "name": "Section 3 List",
+      "type": "text"
+        },
+         {
+      "id": "section3LeftHeadline",
+      "name": "Section 3 Left Headline",
+      "type": "text"
+        },
+        {
+      "id": "section3LeftText",
+      "name": "Section 3 Left Text",
+      "type": "text"
+        },
+         {
+      "id": "section5Headline",
+      "name": "Section 5 Headline",
+      "type": "text"
+        },
+    {
+      "id": "section6TestiText1",
+      "name": "Section 6 Testimonial Text 1",
+      "type": "text"
+        },
+        {
+      "id": "section6TestiText2",
+      "name": "Section 6 Testimonial Text 2",
+      "type": "text"
+        },
+        {
+      "id": "section6TestiText3",
+      "name": "Section 6 Testimonial Text 3",
+      "type": "text"
+        },
+        {
+      "id": "section6TestiQuote1",
+      "name": "Section 6 Testimonial Quote 1",
+      "type": "text"
+        },
+         {
+      "id": "section6TestiQuote2",
+      "name": "Section 6 Testimonial Quote 2",
+      "type": "text"
+        },
+         {
+      "id": "section6TestiQuote3",
+      "name": "Section 6 Testimonial Quote 3",
+      "type": "text"
+        },
+
+
+
+
+   {
+      "id": "optin1",
+      "name": "Hero Optin Button",
+      "type": "link"
+        },
+        {
+      "id": "optin2",
+      "name": "Section5 Optin Button",
+      "type": "link"
+        },
+        {
+      "id": "optin3",
+      "name": "Section7 Optin Button",
+      "type": "link"
+        },
+        {
+      "id": "section7Link1",
+      "name": "Section7 Link1",
+      "type": "link"
+        },
+        {
+      "id": "footerLink1",
+      "name": "Footer Link1",
+      "type": "link"
+        },
+        {
+      "id": "footerLink2",
+      "name": "Footer Link2",
+      "type": "link"
+        },
+        {
+      "id": "footerLink3",
+      "name": "Footer Link3",
+      "type": "link"
+        },
+        {
+      "id": "footerLink4",
+      "name": "Footer Link4",
+      "type": "link"
+        },
+        {
+      "id": "footerLink5",
+      "name": "Footer Link5",
+      "type": "link"
+        },
+
+
+
+
+
+         {
+      "id": "header-bg",
+      "name": "Header Background",
+      "type": "image"
+        },
+            {
+      "id": "site-header-logo",
+      "name": "Logo",
+      "type": "image"
+        },
+        {
+      "id": "section2Logo1",
+      "name": "Section2 Logo 1",
+      "type": "image"
+        },
+        {
+      "id": "section2Logo2",
+      "name": "Section2 Logo 2",
+      "type": "image"
+        },
+        {
+      "id": "section2Logo3",
+      "name": "Section2 Logo 3",
+      "type": "image"
+        },
+        {
+      "id": "section2Logo4",
+      "name": "Section2 Logo 4",
+      "type": "image"
+        },
+        {
+      "id": "section2Logo5",
+      "name": "Section2 Logo 5",
+      "type": "image"
+        },
+        {
+      "id": "section2Logo6",
+      "name": "Section2 Logo 6",
+      "type": "image"
+        },
+        {
+      "id": "section6Testi1Img",
+      "name": "Section6 Testimonial 1 Image",
+      "type": "image"
+        },
+         {
+      "id": "section6Testi2Img",
+      "name": "Section6 Testimonial 2 Image",
+      "type": "image"
+        },
+         {
+      "id": "section6Testi3Img",
+      "name": "Section6 Testimonial 3 Image",
+      "type": "image"
+        },
+
+
+
+
+
+
+            {
+      "id": "section1LeftVideo",
+      "name": "Section 1 Video",
+      "type": "video"
+        }
+
+
+	]
+}
+
+

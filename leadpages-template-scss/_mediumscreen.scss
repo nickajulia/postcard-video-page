@@ -1,0 +1,45 @@
+//_mediumscreen.scss
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { 
+
+img.bg {
+	max-height: calc(1000px);
+	height: calc(1000px);
+}
+
+.optin1-btn{
+  font-size: calc(23px);
+}
+
+
+.vidSize{
+  height: 90%;
+  width: 80%;
+  margin-left: 5%;
+}
+
+
+
+
+/*-- section 2 --*/
+
+[class*="block-grid-"] {
+  margin: 0 2rem;
+}
+
+
+.section3Img{
+margin-top: calc(100px);
+}
+
+
+#section3-right ol {
+  margin-top: calc(100px);
+}
+
+
+
+
+
+  } /* min-width 641px, medium screens */

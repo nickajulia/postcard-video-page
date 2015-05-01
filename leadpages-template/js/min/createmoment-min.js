@@ -1,0 +1,1 @@
+$(function(){var d=moment().add(2,"days").format("dddd, MMMM Do YYYY"),n=document.getElementById("displayMoment");n.innerHTML=d})();

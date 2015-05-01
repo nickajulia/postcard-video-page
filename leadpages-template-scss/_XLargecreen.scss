@@ -1,0 +1,21 @@
+//_XLargecreen.scss
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { 
+
+.hero-left-inner-xl{
+	//margin-left: 5rem;
+}
+
+.hero-right-container{
+	max-width: 50rem;
+	//margin-left: 10rem;
+}
+
+
+#section3-right ol.rectangle-list li:before{
+	left: calc(10px);
+	}
+
+} /* min-width 1441px, xlarge screens */
+
