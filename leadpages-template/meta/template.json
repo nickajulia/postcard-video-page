@@ -1,6 +1,6 @@
 {
-	"id": "Get the Guide",
-	"name": "Get the Guide", 
+	"id": "Post Card Video Landing",
+	"name": "Post Card Video Landing", 
 	"mobile": true, 
 	"notes": "version 1.101", 
 	"syntax": 4, 
@@ -9,64 +9,51 @@
 		"html": "",
 		"replacements": [
 
+
+
+         {
+              "type": "color",
+              "name": "Body Page Bg",
+              "find": "#DDD"
+          },
         {
               "type": "color",
-              "name": "Header Background Overlay Color",
-              "find": "#00000A"
+              "name": "Inner Page Bg",
+              "find": "#fffffe"
           },
+
 
         {
               "type": "color",
-              "name": "Header Bullet Square Color",
-              "find": "#666666"
-          },
-         
-          {
-              "type": "color",
-              "name": "Section1 Color",
-              "find": "#000001"
-          },
-			{
-              "type": "color",
-              "name": "Section 3 Background Color",
-              "find": "#A9ABAD"
-          },
-           {
-              "type": "color",
-              "name": "Section 3 Bullet Square Color",
-              "find": "#E00A15"
-          },
-          {
-              "type": "color",
-              "name": "Section 3 Bullet Number Color",
-              "find": "#fffffd"
-          },
-          {
-              "type": "color",
-              "name": "Section 3 Bullet Line Color",
-              "find": "#000002"
-          },
-           {
-              "type": "color",
-              "name": "Buttons Color",
-              "find": "#E00A14"
-          },
-          {
-              "type": "color",
-              "name": "Buttons Hover Color",
-              "find": "#E00A13"
-          },
-          {
-              "type": "color",
-              "name": "Section 7 Link 1 Color",
+              "name": "Header Link",
               "find": "#656564"
           },
+
+       {
+              "type": "color",
+              "name": "section1Right Headline",
+              "find": "#C00A13"
+          },
+           {
+              "type": "color",
+              "name": "section2 Headline",
+              "find": "#C00"
+          },
           {
               "type": "color",
-              "name": "Footer Links Color",
-              "find": "#999999"
+              "name": "sectionn6a Border",
+              "find": "#808080"
+          },
+          {
+              "type": "color",
+              "name": "sectionn6a bg color",
+              "find": "#9C0202"
+          },
+           {
+              "type": "color",
+              "name": "section6 Images border color",
+              "find": "#c4c4c4"
           }
-
 
 
 
@@ -107,249 +94,194 @@
 	"elements": [
 		
         {
-      "id": "site-header",
+      "id": "header",
       "name": "Header Container",
       "type": "container"
         },
          {
-      "id": "hero-left",
-      "name": "hero-left Container",
-      "type": "container"
-        },
-        {
-      "id": "section3-left",
-      "name": "Section3 left Container",
+      "id": "section1",
+      "name": "section1 Container",
       "type": "container"
         },
          {
-      "id": "section5-left",
-      "name": "Section5 Headline Container",
+      "id": "section1Left",
+      "name": "section1Left Container",
       "type": "container"
         },
          {
-      "id": "hero-right",
-      "name": "hero-right Container",
+      "id": "section1Right",
+      "name": "section1Right Container",
       "type": "container"
         },
-        {
-      "id": "section3-right",
-      "name": "section3 right Container",
-      "type": "container"
-        },
-         {
-      "id": "section5-right",
-      "name": "section5 Button Container",
-      "type": "container"
-        },
-          {
-      "id": "Section1",
-      "name": "Section 1 Container",
-      "type": "container"
-        },
-          {
-      "id": "Section2",
-      "name": "Section 2 Container",
-      "type": "container"
-        },
-          {
-      "id": "Section3",
-      "name": "Section 3 Container",
-      "type": "container"
-        },
-          
-          {
-      "id": "Section5",
-      "name": "Section 5 Container",
-      "type": "container"
-        },
-          {
-      "id": "Section6",
-      "name": "Section 6 Container",
-      "type": "container"
-        },
-          {
-      "id": "Section7",
-      "name": "Section 7 Container",
-      "type": "container"
-        },
-          {
-      "id": "site-footer",
-      "name": "Footer Container",
-      "type": "container"
-        },
-        {
-      "id": "flag1",
-      "name": "Section1 Flag",
+           {
+      "id": "section2",
+      "name": "section1Right Container",
       "type": "container"
         },
          {
-      "id": "flag2",
-      "name": "Section3 Flag",
+      "id": "section2VideoWrap",
+      "name": "section2Video Container",
       "type": "container"
         },
-        {
-      "id": "logos",
-      "name": "Section 2 Logos",
+         {
+      "id": "section3",
+      "name": "section3 Container",
       "type": "container"
         },
-        {
-      "id": "section6Testi1",
-      "name": "Section 6 Testimonial 1",
+         {
+      "id": "section4",
+      "name": "section4 Container",
       "type": "container"
         },
-{
-      "id": "section6Test2",
-      "name": "Section 6 Testimonial 2",
+         {
+      "id": "section5",
+      "name": "section5 Container",
       "type": "container"
         },
-{
-      "id": "section6Testi3",
-      "name": "Section 6 Testimonial 3",
+       {
+      "id": "section6",
+      "name": "section6 Container",
       "type": "container"
         },
+         {
+      "id": "section6aBody",
+      "name": "section6aBody Container",
+      "type": "container"
+        },
+         {
+      "id": "footer",
+      "name": "footer Container",
+      "type": "container"
+        },
+
       
 
 
 
 
         {
-      "id": "heroTitle",
-      "name": "Hero Title",
+      "id": "section1LeftText1",
+      "name": "section1Left Text1",
       "type": "text"
         },
          {
-      "id": "heroSub",
-      "name": "Hero Subtitle",
-      "type": "text"
-        },
-
-          {
-      "id": "head-list-title",
-      "name": "Hero List Title",
-      "type": "text"
-        },
-          {
-      "id": "head-list",
-      "name": "Hero List",
+      "id": "section1LeftText2",
+      "name": "section1Left Text2",
       "type": "text"
         },
          {
-      "id": "hero-optin-text",
-      "name": "Hero Optin Text",
+      "id": "section1RightHead",
+      "name": "section1Right Headline Text",
       "type": "text"
         },
         {
-      "id": "section1RightHeadline",
-      "name": "Section 1 Right Headline",
-      "type": "text"
-        },
-        {
-      "id": "section1-testimonial-text",
-      "name": "Section 1 Right Testimonial",
+      "id": "setion1RightSubHead",
+      "name": "section1Right Subheadline Text",
       "type": "text"
         },
         {
       "id": "section2Headline",
-      "name": "Section 2 Headline",
+      "name": "section2Head headline Text",
+      "type": "text"
+        },
+
+           {
+      "id": "section3List",
+      "name": "section 3 List",
       "type": "text"
         },
           {
-      "id": "section3RightList",
-      "name": "Section 3 List",
+      "id": "section4List",
+      "name": "section 4 List",
       "type": "text"
         },
          {
-      "id": "section3LeftHeadline",
-      "name": "Section 3 Left Headline",
-      "type": "text"
-        },
-        {
-      "id": "section3LeftText",
-      "name": "Section 3 Left Text",
+      "id": "section5List",
+      "name": "section 5 List",
       "type": "text"
         },
          {
-      "id": "section5Headline",
-      "name": "Section 5 Headline",
-      "type": "text"
-        },
-    {
-      "id": "section6TestiText1",
-      "name": "Section 6 Testimonial Text 1",
-      "type": "text"
-        },
-        {
-      "id": "section6TestiText2",
-      "name": "Section 6 Testimonial Text 2",
-      "type": "text"
-        },
-        {
-      "id": "section6TestiText3",
-      "name": "Section 6 Testimonial Text 3",
-      "type": "text"
-        },
-        {
-      "id": "section6TestiQuote1",
-      "name": "Section 6 Testimonial Quote 1",
+      "id": "section6aHeadline",
+      "name": "section6aHeadline Text",
       "type": "text"
         },
          {
-      "id": "section6TestiQuote2",
-      "name": "Section 6 Testimonial Quote 2",
+      "id": "section6aBodyHead1",
+      "name": "section6aBodyHeadline Text",
+      "type": "text"
+        },
+          {
+      "id": "section6aBodyHead2",
+      "name": "section6aBodyHeadline2 Text",
+      "type": "text"
+        },
+          {
+      "id": "section6aBodyHead3",
+      "name": "section6aBodyHeadline3 Text",
+      "type": "text"
+        },
+          {
+      "id": "section6aBodyHead4",
+      "name": "section6aBodyHeadline4 Text",
+      "type": "text"
+        },
+        {
+      "id": "section6aBodyStrong1",
+      "name": "section6aBody Bold Text 1",
+      "type": "text"
+        },
+        {
+      "id": "section6aBodyStrong2",
+      "name": "section6aBody Bold Text 2",
+      "type": "text"
+        },
+        {
+      "id": "section6aBodyStrong3",
+      "name": "section6aBody Bold Text 3",
+      "type": "text"
+        },
+        {
+      "id": "section6aBodyStrong4",
+      "name": "section6aBody Bold Text 4",
+      "type": "text"
+        },
+        {
+      "id": "section6aBodyBody1",
+      "name": "section6aBodyBody Text 1",
+      "type": "text"
+        },
+        {
+      "id": "section6aBodyBody2",
+      "name": "section6aBodyBody Text 2",
+      "type": "text"
+        },
+        {
+      "id": "section6aBodyBody3",
+      "name": "section6aBodyBody Text 3",
+      "type": "text"
+        },
+        {
+      "id": "section6aBodyBody4",
+      "name": "section6aBodyBody Text 4",
       "type": "text"
         },
          {
-      "id": "section6TestiQuote3",
-      "name": "Section 6 Testimonial Quote 3",
+      "id": "copyright",
+      "name": "copyright Text",
+      "type": "text"
+        },
+        {
+      "id": "footerLinks",
+      "name": "footerLinks List",
       "type": "text"
         },
 
 
 
-
-   {
-      "id": "optin1",
-      "name": "Hero Optin Button",
-      "type": "link"
-        },
+   
         {
-      "id": "optin2",
-      "name": "Section5 Optin Button",
-      "type": "link"
-        },
-        {
-      "id": "optin3",
-      "name": "Section7 Optin Button",
-      "type": "link"
-        },
-        {
-      "id": "section7Link1",
-      "name": "Section7 Link1",
-      "type": "link"
-        },
-        {
-      "id": "footerLink1",
-      "name": "Footer Link1",
-      "type": "link"
-        },
-        {
-      "id": "footerLink2",
-      "name": "Footer Link2",
-      "type": "link"
-        },
-        {
-      "id": "footerLink3",
-      "name": "Footer Link3",
-      "type": "link"
-        },
-        {
-      "id": "footerLink4",
-      "name": "Footer Link4",
-      "type": "link"
-        },
-        {
-      "id": "footerLink5",
-      "name": "Footer Link5",
+      "id": "headerRightLink1",
+      "name": "Header Link",
       "type": "link"
         },
 
@@ -358,69 +290,73 @@
 
 
          {
-      "id": "header-bg",
-      "name": "Header Background",
+      "id": "section2AtcImg",
+      "name": "section2 Atc Image",
+      "type": "image-link"
+        },
+
+         {
+      "id": "section4AtcImg",
+      "name": "section4 Atc Image",
+      "type": "image-link"
+        },
+
+         {
+      "id": "section5AtcImg",
+      "name": "section5 Atc Image",
+      "type": "image-link"
+        },
+
+
+
+
+
+         {
+      "id": "section1LeftImg",
+      "name": "section1Left Image",
       "type": "image"
         },
+          {
+      "id": "section1RightImg",
+      "name": "section1RightImg Image",
+      "type": "image"
+        },
+         {
+      "id": "section6aImg",
+      "name": "section6a Image",
+      "type": "image"
+        },
+        {
+      "id": "section6aBodyImg1",
+      "name": "section6aBody Image 1",
+      "type": "image"
+        },   
+        {
+      "id": "section6aBodyImg2",
+      "name": "section6aBody Image 2",
+      "type": "image"
+        }, 
+         {
+      "id": "section6aBodyImg3",
+      "name": "section6aBody Image 3",
+      "type": "image"
+        },   
+         {
+      "id": "section6aBodyImg4",
+      "name": "section6aBody Image 4",
+      "type": "image"
+        },   
+          {
+      "id": "section7aImg",
+      "name": "section7a Image",
+      "type": "image"
+        },     
+
+
+
             {
-      "id": "site-header-logo",
-      "name": "Logo",
-      "type": "image"
-        },
-        {
-      "id": "section2Logo1",
-      "name": "Section2 Logo 1",
-      "type": "image"
-        },
-        {
-      "id": "section2Logo2",
-      "name": "Section2 Logo 2",
-      "type": "image"
-        },
-        {
-      "id": "section2Logo3",
-      "name": "Section2 Logo 3",
-      "type": "image"
-        },
-        {
-      "id": "section2Logo4",
-      "name": "Section2 Logo 4",
-      "type": "image"
-        },
-        {
-      "id": "section2Logo5",
-      "name": "Section2 Logo 5",
-      "type": "image"
-        },
-        {
-      "id": "section2Logo6",
-      "name": "Section2 Logo 6",
-      "type": "image"
-        },
-        {
-      "id": "section6Testi1Img",
-      "name": "Section6 Testimonial 1 Image",
-      "type": "image"
-        },
-         {
-      "id": "section6Testi2Img",
-      "name": "Section6 Testimonial 2 Image",
-      "type": "image"
-        },
-         {
-      "id": "section6Testi3Img",
-      "name": "Section6 Testimonial 3 Image",
-      "type": "image"
-        },
-
-
-
-
-
-
-            {
-      "id": "section1LeftVideo",
-      "name": "Section 1 Video",
+      "id": "section2Video",
+      "name": "section 2 Video",
       "type": "video"
         }
 

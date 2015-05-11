@@ -7015,25 +7015,6 @@ p {
 .text-left {
   text-align: left; }
 
-.firstletter {
-  float: left;
-  color: #000000;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-  font-family: Georgia; }
-
-/* Buttons
----------------------------------------------------------------------------------------------------- */
-.orangeBtn {
-  background-color: #FF5C00;
-  font-size: calc(25px); }
-  .orangeBtn:hover {
-    background-color: #FF5C01;
-    font-size: calc(25px); }
-
 /* Header
 ---------------------------------------------------------------------------------------------------- */
 .headerRight {
@@ -7108,7 +7089,7 @@ p {
 .section6a {
   border-style: solid;
   border-width: 1px;
-  border-color: grey;
+  border-color: #808080;
   box-shadow: 1px 1px 2px 1px #ccc; }
 
 .section6aHead {
