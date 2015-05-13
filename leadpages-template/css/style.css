@@ -1,6 +1,4 @@
 /*Style.scss*/
-@import url(bower_components/normalize-css/normalize.css);
-@import url(bower_components/bootstrap/dist/css/bootstrap.css);
 meta.foundation-version {
   font-family: "/5.5.1/"; }
 

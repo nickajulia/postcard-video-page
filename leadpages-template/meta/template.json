@@ -2,9 +2,9 @@
 	"id": "Post Card Video Landing",
 	"name": "Post Card Video Landing", 
 	"mobile": true, 
-	"notes": "version 1.101", 
+	"notes": "version 1.111", 
 	"syntax": 4, 
-	"version": 1.101,
+	"version": 1.111,
 	"style": {
 		"html": "",
 		"replacements": [
@@ -91,6 +91,25 @@
             "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
         }
     },
+
+
+ "variables": {
+    "plusPeriod": {
+          "variable": "plusPeriod",
+          "default": "2"
+          
+    },
+    "periodMeasure": {
+          "variable": "periodMeasure",
+          "default": "days"
+          
+    }
+},
+
+
+
+
+
 	"elements": [
 		
         {
@@ -115,7 +134,7 @@
         },
            {
       "id": "section2",
-      "name": "section1Right Container",
+      "name": "section2 Container",
       "type": "container"
         },
          {
@@ -154,7 +173,6 @@
       "type": "container"
         },
 
-      
 
 
 
@@ -278,6 +296,10 @@
 
 
 
+
+
+
+
    
         {
       "id": "headerRightLink1",
@@ -358,8 +380,19 @@
       "id": "section2Video",
       "name": "section 2 Video",
       "type": "video"
-        }
+        },
 
+
+
+        {
+        "id": "displayMoment",
+      "name": "Date Dislay",
+      "type": "dynamic",
+      "data": {
+        "variables": ["plusPeriod","periodMeasure"],
+        "default":"2, days"
+          }
+       }   
 
 	]
 }

@@ -1,15 +1,8 @@
-//create moment js
 
+//createmoment.js
+$(function(){
 
-			$(function()
-{
-  // instantiate a moment object
-	  var NowMoment = moment().add(2,'days').format("dddd, MMMM Do YYYY");
-	  
-	  
-	  // display value of moment object in #displayMoment div
-	  var eDisplayMoment = document.getElementById('displayMoment');
-	  eDisplayMoment.innerHTML = NowMoment;
-	  
-	  
-	})();
+	var plusPeriod = '2';
+	var periodMeasure = 'days';
+
+	var d=moment().add(plusPeriod,periodMeasure).format("dddd, MMMM Do YYYY"),n=document.getElementById("displayMoment");n.innerHTML=d})();
