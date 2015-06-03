@@ -2,9 +2,9 @@
 	"id": "Post Card Video Landing",
 	"name": "Post Card Video Landing", 
 	"mobile": true, 
-	"notes": "version 1.111", 
+ 	"notes": "version 1.129", 
 	"syntax": 4, 
-	"version": 1.111,
+	"version": 1.129,
 	"style": {
 		"html": "",
 		"replacements": [
@@ -78,7 +78,7 @@
                 "border-style": "solid;",
                 "font-family": "Helvetica, Arial, sans-serif",
                 "font-size": "14pt;",
-                "letter-spacing": "-0.1em;"
+                "letter-spacing": "0em;"
             },
             "html": "Free Instant Access &raquo;"
         },
@@ -86,7 +86,7 @@
             "css": {
                 "font-family": "Helvetica, Arial, sans-serif",
                 "font-size": "12pt;",
-                "letter-spacing": "-0.1em;"
+                "letter-spacing": "0em;"
             },
             "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
         }
@@ -314,6 +314,11 @@
          {
       "id": "section2AtcImg",
       "name": "section2 Atc Image",
+      "type": "image-link"
+        },
+         {
+      "id": "section3AtcImg",
+      "name": "section3 Atc Image",
       "type": "image-link"
         },
 

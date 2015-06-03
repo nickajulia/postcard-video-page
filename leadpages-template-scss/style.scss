@@ -377,6 +377,20 @@ color: $black;
   list-style: none;
   margin-bottom: calc(30px);
   margin-top: calc(30px);
+  text-align: left;
+}
+
+.sectionItemHeadWrap{
+  font-family: Arial;
+  font-size: 12pt;
+  font-style: normal;
+  font-variant: normal;
+  letter-spacing: normal;
+  line-height: inherit;
+  orphans: 2;
+  text-align: left;
+  word-spacing: 0px;
+
 }
 
 .sectionItemHead{
@@ -384,9 +398,9 @@ color: $black;
   font-size: 12pt;
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
+  //font-weight: 700;
   letter-spacing: normal;
-  line-height: 38px;
+  line-height: inherit;
   orphans: 2;
   text-align: left;
   word-spacing: 0px;
@@ -431,7 +445,7 @@ color: $black;
 }
 
 .section6aNoPad{
-  padding-top: 0px;
+  padding-top: 5px;
   padding-bottom: 0px;
   padding-left: 5px;
   padding-right: 5px;
@@ -444,7 +458,7 @@ color: $black;
 
 
 .section6aBody{
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 
@@ -457,6 +471,7 @@ color: $black;
   text-align: left;
   margin:0;
   padding:0;
+  padding-top: 5px;
   line-height: 12px;
   margin-bottom: 5px;
 
@@ -484,7 +499,7 @@ color: $black;
 
 
 .section6aBodySpacer{
-  margin-bottom: calc(8px);
+  //margin-bottom: calc(8px);
  
 }
 
@@ -526,13 +541,34 @@ font-size: 14px;
 
 }
 
+.footerLinksContainer, .footerLinksFixer{
+  float: left;
+  position: relative;
+}
+
+.footerLinksContainer{
+  left:50%;
+}
+.footerLinksFixer{
+  left:-50%;
+}
+
 .footerLinks{
   ul{
     margin-bottom: 10px;
   }
   
   ul li{
-    
+    float: left;
+     color:$grey;
+    font-size: 14px;
+    text-decoration: none;
+    &:hover{
+      color:$grey;
+      text-decoration: underline;
+      }
+
+
     a{
     color:$grey;
     font-size: 14px;
